@@ -1,11 +1,12 @@
 import React from "react";
-import { Button } from "@/components/ui/button";
+import { Button } from "./ui/button";
+// import "tailwindcss";
 
 export default function Hero() {
   return (
     <section className="flex flex-col items-center justify-center text-center py-24 px-6">
       <h1 className="text-4xl md:text-5xl font-bold mb-4 text-[#3A86FF]">
-        Hi, I'm [Your Name]
+        Hey! I'm Angel Santiago
       </h1>
       <p className="text-lg md:text-xl text-[#1E293B] max-w-xl">
         Full Stack Developer building thoughtful web apps with clean code & creative design.
