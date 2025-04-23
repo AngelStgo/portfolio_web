@@ -24,10 +24,10 @@ function Portfolio() {
           </button>
         </div>
 
-       <NavBar/>
+       {/* <NavBar/> */}
        <Hero/>
+        <About/>
        <Projects/>
-       <About/>
        {/* <Contact/> */}
        <Footer/>
        

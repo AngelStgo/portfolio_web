@@ -5,7 +5,8 @@ function NavBar() {
     const gitHubLink = "https://github.com/AngelStgo"
 
     return (
-        <nav className="flex items-center justify-between px-6 py-4 bg-white shadow-md dark:bg-slate-900">
+        <nav className="sticky top-0 z-50 flex items-center justify-between px-6 py-4 bg-white shadow-md dark:bg-slate-900">
+
           <h1 className="text-xl font-bold text-[#3A86FF] dark:text-[#A0C4FF]">Angel Santiago</h1>
           <ul className="flex gap-6 text-[#1E293B] dark:text-white font-medium">
             <li><a href="#projects" className="hover:text-[#3A86FF]">Projects</a></li>

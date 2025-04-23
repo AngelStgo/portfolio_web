@@ -1,6 +1,6 @@
 import React from "react";
 
-function ProjectCard({ title, description, tech, link }) {
+function ProjectCard({ title, description, tech, link , gitHub }) {
   return (
     <div className="bg-white dark:bg-slate-800 p-6 rounded-xl shadow-md border border-gray-100 dark:border-slate-700">
       <h3 className="text-xl font-semibold text-[#3A86FF] dark:text-[#A0C4FF] mb-2">{title}</h3>
@@ -8,6 +8,9 @@ function ProjectCard({ title, description, tech, link }) {
       <p className="text-sm text-gray-500 dark:text-gray-400 mb-2">Tech: {tech.join(", ")}</p>
       <a href={link} target="_blank" rel="noopener noreferrer" className="text-[#3A86FF] hover:underline">
         View Project
+      </a> <br />
+      <a href={gitHub} target="_blank" rel="noopener noreferrer" className="text-[#3A86FF] hover:underline">
+        View Code
       </a>
     </div>
   );
@@ -19,19 +22,22 @@ function Projects() {
       title: "Tattoo Booking App",
       description: "Full stack app with artist login, portfolio management, and booking system.",
       tech: ["React", "Express", "MongoDB", "Tailwind"],
-      link: "#"
+      link: "#",
+      gitHub: ""
     },
     {
       title: "",
       description: "",
       tech: ["React", "CSS Modules"],
-      link: "#"
+      link: "#",
+      gitHub: ""
     },
     {
       title: "",
       description: "",
       tech: ["HTML", "CSS", "JavaScript"],
-      link: "#"
+      link: "#",
+      gitHub: ""
     }
   ];
 
