@@ -3,8 +3,9 @@ import NavBar from "../components/navBar";
 import Hero from "../components/Hero";
 import Projects from "../components/Projects";
 import About from "../components/About";
-import Contact from "../components/Contact";
+
 import Footer from "../components/Footer";
+import Contact from "../components/Contact";
 
 
 
@@ -28,7 +29,7 @@ function Portfolio() {
        <Hero/>
         <About/>
        <Projects/>
-       {/* <Contact/> */}
+       <Contact/>
        <Footer/>
        
 

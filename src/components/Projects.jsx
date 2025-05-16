@@ -22,23 +22,23 @@ function Projects() {
       title: "Tattoo Booking App",
       description: "Full stack app with artist login, portfolio management, and booking system.",
       tech: ["React", "Express", "MongoDB", "Tailwind"],
-      link: "#",
-      gitHub: ""
+      link: "https://github.com/AngelStgo/capstone-frontend",
+      gitHub: "https://github.com/AngelStgo/capstone-frontend"
     },
-    {
-      title: "",
-      description: "",
-      tech: ["React", "CSS Modules"],
-      link: "#",
-      gitHub: ""
-    },
-    {
-      title: "",
-      description: "",
-      tech: ["HTML", "CSS", "JavaScript"],
-      link: "#",
-      gitHub: ""
-    }
+    // {
+    //   title: "",
+    //   description: "",
+    //   tech: ["React", "CSS Modules"],
+    //   link: "#",
+    //   gitHub: ""
+    // },
+    // {
+    //   title: "",
+    //   description: "",
+    //   tech: ["HTML", "CSS", "JavaScript"],
+    //   link: "#",
+    //   gitHub: ""
+    // }
   ];
 
   return (
